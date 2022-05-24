@@ -646,8 +646,8 @@ a:hover {
 .statistic .content:hover {
     transform: translateY(-4px);
     box-shadow:
-        rgb(46 41 51 / 8%) 0px 2px 4px,
-        rgb(71 63 79 / 16%) 0px 5px 10px;
+        0px 2px 4px rgb(46 41 51 / 8%),
+        0px 5px 10px rgb(71 63 79 / 16%);
 }
 
 .statistic .content i {
@@ -1538,7 +1538,6 @@ a:hover {
     .banner {
         width: 100%;
         min-height: 600px;
-        margin-top: 60px;
     }
 
     .banner-info h1 {
@@ -1596,7 +1595,8 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 576px) {
+     /*banner responsive  */
     .banner {
         max-width: 576px;
     }
@@ -1618,6 +1618,18 @@ a:hover {
         margin-top: 30px;
     }
 
+    /* booking responsive */
+    .booking-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* intro video */
+    .intro-video .content {
+        min-height: 400px;
+    }
+
+    /* footer responsive */
     .footer {
         padding: 48px 0 24px;
     }
