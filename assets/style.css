@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 :root {
     --primary-color: #ff6600;
     --secondary-color: #ffc600;
